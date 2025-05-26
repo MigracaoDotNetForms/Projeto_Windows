@@ -7,7 +7,7 @@ on:
 jobs:
   # 1: Build - tests
   build:
-    uses: MigracaoDotNetForms/Projeto_Windows/.github/workflows/build.yml@main
+    uses: MigracaoDotNetForms/Projeto_Windows/.github/workflows/reusable-build.yml@main
     with:
      build_configuration: 'Release'
     secrets:
